@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="280" viewBox="0 0 680 280" role="img" preserveAspectRatio="xMidYMid meet">
+<title>The HW4 retrieval pipeline</title>
+<desc>Four offline stages turn the HTML corpus into a BM25 index. Four per-question stages parse the question, retrieve from the index, and call the fixed generator.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#378ADD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<text x="40" y="56" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6B7280">once per document, no model call</text>
+
+<g stroke-width="0.5">
+<rect x="40" y="68" width="132" height="54" rx="8" fill="#E6F1FB" stroke="#85B7EB"/>
+<rect x="196" y="68" width="132" height="54" rx="8" fill="#E6F1FB" stroke="#85B7EB"/>
+<rect x="352" y="68" width="132" height="54" rx="8" fill="#E6F1FB" stroke="#85B7EB"/>
+<rect x="508" y="68" width="132" height="54" rx="8" fill="#E6F1FB" stroke="#85B7EB"/>
+<rect x="40" y="174" width="132" height="54" rx="8" fill="#E6F1FB" stroke="#85B7EB"/>
+<rect x="196" y="174" width="132" height="54" rx="8" fill="#E6F1FB" stroke="#85B7EB"/>
+<rect x="352" y="174" width="132" height="54" rx="8" fill="#E6F1FB" stroke="#85B7EB"/>
+<rect x="508" y="174" width="132" height="54" rx="8" fill="#FAEEDA" stroke="#BA7517"/>
+</g>
+
+<g font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="middle" fill="#0C447C">
+<text x="106" y="89" dominant-baseline="central">corpus/</text>
+<text x="262" y="89" dominant-baseline="central">parse</text>
+<text x="418" y="89" dominant-baseline="central">chunk</text>
+<text x="574" y="89" dominant-baseline="central">index</text>
+<text x="106" y="195" dominant-baseline="central">question</text>
+<text x="262" y="195" dominant-baseline="central">parse_query</text>
+<text x="418" y="195" dominant-baseline="central">retrieve</text>
+</g>
+<text x="574" y="195" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" text-anchor="middle" fill="#633806" dominant-baseline="central">generate</text>
+
+<g font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#185FA5">
+<text x="106" y="108" dominant-baseline="central">40 HTML files</text>
+<text x="262" y="108" dominant-baseline="central">blocks + tables</text>
+<text x="418" y="108" dominant-baseline="central">header + meta</text>
+<text x="574" y="108" dominant-baseline="central">BM25, b = 0.3</text>
+<text x="106" y="214" dominant-baseline="central">60 questions</text>
+<text x="262" y="214" dominant-baseline="central">3 parsed fields</text>
+<text x="418" y="214" dominant-baseline="central">rank + abstain</text>
+</g>
+<text x="574" y="214" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#854F0B" dominant-baseline="central">only LLM call</text>
+
+<g stroke="#378ADD" stroke-width="1.5" fill="none" marker-end="url(#arrow)">
+<path d="M172 95H192"/>
+<path d="M328 95H348"/>
+<path d="M484 95H504"/>
+<path d="M172 201H192"/>
+<path d="M328 201H348"/>
+<path d="M484 201H504"/>
+<path d="M574 122V150H418V170"/>
+</g>
+
+<text x="40" y="162" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6B7280">once per question</text>
+<text x="40" y="252" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6B7280">filters on metadata before ranking, and returns [] when the corpus cannot answer</text>
+</svg>

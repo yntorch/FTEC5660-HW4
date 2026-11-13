@@ -1,0 +1,124 @@
+variant,why,id,category,parsed,parse_score,retrieved,valid,retrieval_hit,answer,correct,expected
+B0,wrong answer,q001,unanswerable,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_028.html;doc_038.html,True,,241.6,False,NOT_FOUND
+B0,wrong answer,q003,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_010.html;doc_011.html;doc_019.html;doc_025.html;doc_039.html,True,False,NOT_FOUND,False,Northgate Robotics
+B0,wrong answer,q004,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_017.html;doc_019.html;doc_021.html;doc_029.html;doc_033.html,True,False,NOT_FOUND,False,Kestrel Semiconductor
+B0,wrong answer,q012,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_011.html;doc_028.html;doc_038.html,True,False,NOT_FOUND,False,838.4
+B0,wrong answer,q013,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_017.html;doc_019.html;doc_022.html;doc_033.html;doc_037.html,True,False,NOT_FOUND,False,Brightwater Energy
+B0,wrong answer,q015,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_015.html;doc_023.html;doc_036.html;doc_040.html,True,False,NOT_FOUND,False,Whitlock Byrne
+B0,wrong answer,q016,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_009.html;doc_024.html;doc_031.html,True,False,NOT_FOUND,False,1805.4
+B0,wrong answer,q017,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_006.html;doc_011.html;doc_016.html;doc_019.html;doc_032.html,True,False,NOT_FOUND,False,Brightwater Energy
+B0,wrong answer,q018,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_011.html;doc_012.html;doc_015.html;doc_019.html;doc_039.html,True,False,NOT_FOUND,False,75
+B0,wrong answer,q020,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_019.html;doc_032.html,True,False,NOT_FOUND,False,716.6
+B0,wrong answer,q021,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_013.html;doc_014.html;doc_015.html;doc_028.html;doc_038.html,True,False,NOT_FOUND,False,Northgate Robotics
+B0,wrong answer,q022,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_011.html;doc_012.html;doc_016.html;doc_019.html;doc_037.html,True,False,NOT_FOUND,False,Orchid Bay Hotels
+B0,wrong answer,q023,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_013.html;doc_015.html;doc_023.html;doc_036.html;doc_040.html,True,False,NOT_FOUND,False,Sablewood Retail
+B0,wrong answer,q024,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_037.html,True,False,NOT_FOUND,False,316.2
+B0,wrong answer,q026,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_008.html;doc_016.html;doc_035.html,True,False,NOT_FOUND,False,446.9
+B0,wrong answer,q030,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_019.html;doc_032.html;doc_038.html,True,False,NOT_FOUND,False,363.2
+B0,wrong answer,q031,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_020.html;doc_027.html;doc_034.html;doc_035.html;doc_037.html,True,False,NOT_FOUND,False,Brightwater Energy
+B0,wrong answer,q036,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_011.html;doc_013.html;doc_028.html;doc_038.html;doc_039.html,True,False,NOT_FOUND,False,236.6
+B0,wrong answer,q037,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_013.html;doc_014.html;doc_028.html;doc_035.html;doc_038.html,True,False,NOT_FOUND,False,Northgate Robotics
+B0,wrong answer,q038,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_008.html;doc_016.html;doc_030.html,True,False,NOT_FOUND,False,173.9
+B0,wrong answer,q040,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_005.html;doc_026.html;doc_032.html;doc_038.html,True,False,NOT_FOUND,False,162.6
+B0,wrong answer,q042,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_016.html;doc_026.html;doc_031.html;doc_032.html;doc_034.html,True,True,NOT_FOUND,False,William Petrov
+B0,wrong answer,q043,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_008.html;doc_016.html;doc_030.html;doc_035.html,True,False,NOT_FOUND,False,586.6
+B0,wrong answer,q044,unanswerable,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_022.html;doc_037.html,True,,231.3,False,NOT_FOUND
+B0,wrong answer,q045,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_015.html;doc_023.html;doc_036.html;doc_040.html,True,False,NOT_FOUND,False,634.6
+B0,wrong answer,q046,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_007.html;doc_018.html,True,False,NOT_FOUND,False,897.8
+B0,wrong answer,q047,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_002.html;doc_008.html;doc_018.html;doc_024.html;doc_031.html,True,False,NOT_FOUND,False,2711.4
+B0,wrong answer,q050,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_020.html;doc_027.html;doc_032.html,True,False,NOT_FOUND,False,493.5
+B0,wrong answer,q051,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_026.html;doc_027.html;doc_032.html;doc_039.html,True,False,NOT_FOUND,False,492.1
+B0,wrong answer,q052,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_002.html;doc_005.html;doc_008.html;doc_018.html;doc_026.html,True,False,NOT_FOUND,False,3175.5
+B0,wrong answer,q053,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_006.html;doc_010.html;doc_019.html;doc_033.html,True,False,NOT_FOUND,False,Corvane Pharma
+B0,wrong answer,q054,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_023.html;doc_036.html;doc_040.html,True,False,NOT_FOUND,False,297.4
+B0,wrong answer,q055,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_010.html;doc_017.html;doc_018.html;doc_037.html,True,False,NOT_FOUND,False,456.2
+B0,wrong answer,q056,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_013.html;doc_015.html;doc_021.html;doc_023.html;doc_033.html,True,False,NOT_FOUND,False,Kestrel Semiconductor
+B0,wrong answer,q057,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_016.html;doc_024.html;doc_027.html;doc_031.html,True,False,NOT_FOUND,False,153.8
+B0,wrong answer,q058,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_010.html;doc_011.html;doc_016.html;doc_021.html;doc_033.html,True,False,NOT_FOUND,False,Corvane Pharma
+B0,wrong answer,q060,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_005.html;doc_024.html;doc_026.html,True,False,NOT_FOUND,False,2083.1
+V1,wrong answer,q001,unanswerable,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_028.html;doc_038.html,True,,241.6,False,NOT_FOUND
+V1,wrong answer,q003,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_010.html;doc_011.html;doc_019.html;doc_025.html;doc_039.html,True,False,NOT_FOUND,False,Northgate Robotics
+V1,wrong answer,q004,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_005.html;doc_017.html;doc_021.html;doc_029.html;doc_033.html,True,False,NOT_FOUND,False,Kestrel Semiconductor
+V1,wrong answer,q010,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_016.html;doc_026.html;doc_031.html;doc_032.html;doc_038.html,True,False,NOT_FOUND,False,Yara Castillo
+V1,wrong answer,q012,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_011.html;doc_028.html;doc_038.html,True,False,NOT_FOUND,False,838.4
+V1,wrong answer,q013,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_006.html;doc_019.html;doc_022.html;doc_033.html;doc_037.html,True,False,NOT_FOUND,False,Brightwater Energy
+V1,wrong answer,q015,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_011.html;doc_016.html;doc_023.html;doc_036.html,True,False,NOT_FOUND,False,Whitlock Byrne
+V1,wrong answer,q016,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_009.html;doc_024.html;doc_031.html,True,False,NOT_FOUND,False,1805.4
+V1,wrong answer,q017,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_019.html;doc_023.html;doc_026.html;doc_031.html,True,False,NOT_FOUND,False,Brightwater Energy
+V1,wrong answer,q018,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_011.html;doc_012.html;doc_015.html;doc_019.html;doc_039.html,True,False,NOT_FOUND,False,75
+V1,wrong answer,q020,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_019.html;doc_021.html;doc_032.html,True,False,NOT_FOUND,False,716.6
+V1,wrong answer,q021,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_010.html;doc_013.html;doc_014.html;doc_015.html;doc_028.html,True,False,NOT_FOUND,False,Northgate Robotics
+V1,wrong answer,q022,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_010.html;doc_012.html;doc_019.html;doc_037.html,True,False,NOT_FOUND,False,Orchid Bay Hotels
+V1,wrong answer,q023,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_013.html;doc_015.html;doc_023.html;doc_036.html;doc_040.html,True,False,NOT_FOUND,False,Sablewood Retail
+V1,wrong answer,q024,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_037.html,True,False,NOT_FOUND,False,316.2
+V1,wrong answer,q026,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_008.html;doc_016.html;doc_035.html,True,False,NOT_FOUND,False,446.9
+V1,wrong answer,q029,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_009.html;doc_015.html;doc_025.html;doc_040.html,True,False,NOT_FOUND,False,2605.8
+V1,wrong answer,q030,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_027.html;doc_032.html,True,False,NOT_FOUND,False,363.2
+V1,wrong answer,q031,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_020.html;doc_027.html;doc_034.html;doc_035.html;doc_037.html,True,False,NOT_FOUND,False,Brightwater Energy
+V1,wrong answer,q036,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_002.html;doc_012.html;doc_013.html;doc_027.html;doc_032.html,True,False,NOT_FOUND,False,236.6
+V1,wrong answer,q037,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_011.html;doc_014.html;doc_016.html;doc_035.html,True,False,NOT_FOUND,False,Northgate Robotics
+V1,wrong answer,q038,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_002.html;doc_004.html;doc_027.html;doc_032.html;doc_036.html,True,False,NOT_FOUND,False,173.9
+V1,wrong answer,q040,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_005.html;doc_026.html;doc_031.html,True,False,NOT_FOUND,False,162.6
+V1,wrong answer,q042,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_016.html;doc_026.html;doc_031.html;doc_032.html;doc_038.html,True,True,NOT_FOUND,False,William Petrov
+V1,wrong answer,q043,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_008.html;doc_016.html;doc_030.html;doc_035.html,True,False,NOT_FOUND,False,586.6
+V1,wrong answer,q045,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_015.html;doc_023.html;doc_036.html,True,False,NOT_FOUND,False,634.6
+V1,wrong answer,q046,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_009.html;doc_018.html;doc_029.html,True,False,NOT_FOUND,False,897.8
+V1,wrong answer,q047,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_004.html;doc_005.html;doc_018.html;doc_024.html,True,False,NOT_FOUND,False,2711.4
+V1,wrong answer,q050,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_020.html;doc_027.html;doc_028.html;doc_032.html,True,False,NOT_FOUND,False,493.5
+V1,wrong answer,q051,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_005.html;doc_011.html;doc_020.html;doc_023.html,True,False,NOT_FOUND,False,492.1
+V1,wrong answer,q053,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_010.html;doc_011.html;doc_016.html;doc_019.html,True,False,NOT_FOUND,False,Corvane Pharma
+V1,wrong answer,q054,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_015.html;doc_023.html;doc_036.html,True,False,NOT_FOUND,False,297.4
+V1,wrong answer,q055,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_004.html;doc_010.html;doc_018.html;doc_027.html,True,False,NOT_FOUND,False,456.2
+V1,wrong answer,q056,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_002.html;doc_004.html;doc_011.html;doc_015.html;doc_023.html,True,False,NOT_FOUND,False,Kestrel Semiconductor
+V1,wrong answer,q057,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_002.html;doc_004.html;doc_027.html;doc_032.html;doc_036.html,True,False,NOT_FOUND,False,153.8
+V1,wrong answer,q058,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_010.html;doc_023.html;doc_026.html;doc_033.html,True,False,NOT_FOUND,False,Corvane Pharma
+V1,wrong answer,q059,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_016.html;doc_026.html;doc_031.html;doc_032.html;doc_038.html,True,True,NOT_FOUND,False,William Lambert
+V1,wrong answer,q060,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_005.html;doc_026.html,True,False,NOT_FOUND,False,2083.1
+V2,wrong answer,q001,unanswerable,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_011.html;doc_028.html;doc_038.html,True,,241.6,False,NOT_FOUND
+V2,wrong answer,q004,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_005.html;doc_016.html;doc_017.html;doc_026.html;doc_033.html,True,False,NOT_FOUND,False,Kestrel Semiconductor
+V2,wrong answer,q010,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_016.html;doc_026.html;doc_031.html;doc_032.html;doc_038.html,True,False,NOT_FOUND,False,Yara Castillo
+V2,wrong answer,q013,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_003.html;doc_019.html;doc_022.html,True,False,NOT_FOUND,False,Brightwater Energy
+V2,retrieval miss,q016,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_009.html;doc_024.html;doc_029.html;doc_031.html,True,False,1804.5,True,
+V2,wrong answer,q020,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_019.html;doc_032.html,True,False,NOT_FOUND,False,716.6
+V2,wrong answer,q023,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_015.html;doc_023.html;doc_036.html,True,False,NOT_FOUND,False,Sablewood Retail
+V2,wrong answer,q024,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_037.html,True,False,NOT_FOUND,False,316.2
+V2,wrong answer,q031,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_020.html;doc_027.html;doc_034.html,True,False,NOT_FOUND,False,Brightwater Energy
+V2,wrong answer,q035,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_012.html;doc_017.html;doc_019.html;doc_033.html;doc_035.html,True,True,NOT_FOUND,False,61.16
+V2,wrong answer,q037,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_011.html;doc_014.html;doc_016.html,True,False,NOT_FOUND,False,Northgate Robotics
+V2,wrong answer,q040,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_026.html;doc_029.html;doc_031.html;doc_038.html,True,False,NOT_FOUND,False,162.6
+V2,wrong answer,q043,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_008.html;doc_016.html;doc_035.html,True,False,NOT_FOUND,False,586.6
+V2,wrong answer,q044,unanswerable,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_022.html;doc_037.html,True,,231.3,False,NOT_FOUND
+V2,wrong answer,q045,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_015.html;doc_023.html;doc_036.html,True,False,NOT_FOUND,False,634.6
+V2,wrong answer,q046,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_004.html;doc_007.html;doc_009.html;doc_018.html;doc_029.html,True,False,NOT_FOUND,False,897.8
+V2,wrong answer,q050,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_020.html;doc_027.html;doc_028.html;doc_032.html;doc_038.html,True,False,NOT_FOUND,False,493.5
+V2,wrong answer,q054,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_023.html;doc_036.html;doc_040.html,True,False,NOT_FOUND,False,297.4
+V3,wrong answer,q001,unanswerable,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_011.html;doc_028.html;doc_038.html,True,,241.6,False,NOT_FOUND
+V3,wrong answer,q004,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_005.html;doc_008.html;doc_016.html;doc_017.html;doc_026.html,True,False,NOT_FOUND,False,Kestrel Semiconductor
+V3,wrong answer,q008,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_007.html;doc_009.html;doc_025.html;doc_034.html,True,False,NOT_FOUND,False,8.5
+V3,wrong answer,q013,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_019.html;doc_037.html,True,False,Orchid Bay Hotels,False,Brightwater Energy
+V3,wrong answer,q031,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_019.html;doc_020.html;doc_027.html;doc_032.html,True,False,NOT_FOUND,False,Brightwater Energy
+V3,wrong answer,q035,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_012.html;doc_017.html;doc_019.html;doc_033.html;doc_035.html,True,True,NOT_FOUND,False,61.16
+V3,retrieval miss,q037,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_020.html;doc_027.html;doc_028.html;doc_038.html,True,False,Northgate Robotics,True,
+V3,wrong answer,q044,unanswerable,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_037.html,True,,231.3,False,NOT_FOUND
+V3,wrong answer,q050,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_004.html;doc_020.html;doc_027.html;doc_032.html,True,True,NOT_FOUND,False,493.5
+V3,wrong answer,q054,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_023.html;doc_036.html,True,False,NOT_FOUND,False,297.4
+V3,wrong answer,q056,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_023.html;doc_036.html,True,False,NOT_FOUND,False,Kestrel Semiconductor
+V4,wrong answer,q001,unanswerable,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_011.html;doc_028.html;doc_038.html,True,,241.6,False,NOT_FOUND
+V4,wrong answer,q008,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_007.html;doc_009.html;doc_025.html;doc_034.html,True,False,NOT_FOUND,False,8.5
+V4,wrong answer,q013,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_019.html;doc_037.html,True,False,Orchid Bay Hotels,False,Brightwater Energy
+V4,wrong answer,q023,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_023.html;doc_036.html,True,False,NOT_FOUND,False,Sablewood Retail
+V4,wrong answer,q035,fact,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_012.html;doc_017.html;doc_019.html;doc_033.html;doc_035.html,True,True,NOT_FOUND,False,61.16
+V4,wrong answer,q037,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_013.html;doc_028.html;doc_038.html,True,False,NOT_FOUND,False,Northgate Robotics
+V4,wrong answer,q044,unanswerable,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_001.html;doc_002.html;doc_037.html,True,,231.3,False,NOT_FOUND
+V4,wrong answer,q050,table,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_003.html;doc_020.html;doc_027.html,True,True,NOT_FOUND,False,493.5
+V4,wrong answer,q053,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_024.html;doc_031.html,True,False,NOT_FOUND,False,Corvane Pharma
+V4,wrong answer,q056,comparison,"{""companies"": [], ""fiscal_year"": null, ""doc_type"": null}",0.0,doc_023.html;doc_036.html,True,False,NOT_FOUND,False,Kestrel Semiconductor
+V5,wrong answer,q013,comparison,"{""companies"": [""Brightwater Energy Corp."", ""Orchid Bay Hotels Ltd.""], ""fiscal_year"": 2024, ""doc_type"": ""annual_report""}",1.0,doc_001.html;doc_002.html,True,False,Orchid Bay Hotels,False,Brightwater Energy
+V5,wrong answer,q023,comparison,"{""companies"": [""Lumen Harbor Foods plc"", ""Sablewood Retail Inc.""], ""fiscal_year"": 2024, ""doc_type"": ""annual_report""}",1.0,doc_023.html;doc_036.html,True,False,NOT_FOUND,False,Sablewood Retail
+V5,retrieval miss,q037,comparison,"{""companies"": [""Northgate Robotics Inc."", ""Brightwater Software Inc.""], ""fiscal_year"": 2024, ""doc_type"": ""annual_report""}",1.0,doc_028.html;doc_038.html,True,False,Northgate Robotics,True,
+V5,wrong answer,q053,comparison,"{""companies"": [""Brightwater Energy Corp."", ""Corvane Pharma Ltd.""], ""fiscal_year"": 2024, ""doc_type"": ""annual_report""}",1.0,doc_024.html;doc_031.html,True,False,NOT_FOUND,False,Corvane Pharma
+V6,wrong answer,q013,comparison,"{""companies"": [""Brightwater Energy Corp."", ""Orchid Bay Hotels Ltd.""], ""fiscal_year"": 2024, ""doc_type"": ""annual_report""}",1.0,doc_001.html;doc_002.html,True,False,Orchid Bay Hotels,False,Brightwater Energy
+V6,wrong answer,q023,comparison,"{""companies"": [""Lumen Harbor Foods plc"", ""Sablewood Retail Inc.""], ""fiscal_year"": 2024, ""doc_type"": ""annual_report""}",1.0,doc_023.html;doc_036.html,True,False,NOT_FOUND,False,Sablewood Retail
+V6,retrieval miss,q037,comparison,"{""companies"": [""Northgate Robotics Inc."", ""Brightwater Software Inc.""], ""fiscal_year"": 2024, ""doc_type"": ""annual_report""}",1.0,doc_028.html;doc_038.html,True,False,Northgate Robotics,True,
+V6,wrong answer,q053,comparison,"{""companies"": [""Brightwater Energy Corp."", ""Corvane Pharma Ltd.""], ""fiscal_year"": 2024, ""doc_type"": ""annual_report""}",1.0,doc_024.html;doc_031.html,True,False,NOT_FOUND,False,Corvane Pharma
+V7,wrong answer,q013,comparison,"{""companies"": [""Brightwater Energy Corp."", ""Orchid Bay Hotels Ltd.""], ""fiscal_year"": 2024, ""doc_type"": ""annual_report""}",1.0,doc_001.html,True,False,Orchid Bay Hotels,False,Brightwater Energy

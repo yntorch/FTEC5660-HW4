@@ -1,0 +1,12 @@
+variant,chunks,t1_1,t1_2,parse,non_empty,recall,kept,rejected,accuracy,points,llm_calls,seconds,change
+B0,211.0,0.0,1.0,0.0056,1.0,0.2609,1.0,0.0,0.3833,19.7222,0.0,7.5,"naive RAG, Tutorial 7 Section 2: get_text(), RecursiveCharacterTextSplitter, lower-cased whitespace tokens, BM25 top-5 over the whole corpus, no query parsing, never []"
+V1,317.0,1.0,1.0,0.0056,1.0,0.2391,1.0,0.0,0.3667,27.3888,0.0,8.0,"+ structured parsing: walk h1/h2/h3/p/ul/table as blocks and convert every <table> with table_to_text (row label + column header kept), tables never glued to prose"
+V2,406.0,1.0,1.0,0.0056,1.0,0.6739,1.0,0.0,0.7167,40.9106,0.0,10.6,+ contextual chunk header: prepend 'company | FY | doc_type | section' to every chunk
+V3,406.0,1.0,1.0,0.0056,1.0,0.8478,1.0,0.0,0.8333,49.7656,0.0,9.3,"+ better tokeniser: lower-case, strip stopwords and question scaffolding, light stemming instead of raw whitespace tokens"
+V4,406.0,1.0,1.0,0.0056,1.0,0.8696,1.0,0.0,0.8333,50.5809,0.0,8.4,"+ BM25 b=0.3 instead of the default 0.75 (less length normalisation, so a short risk-factor paragraph stops outranking the income statement)"
+V5,406.0,1.0,1.0,1.0,1.0,0.913,1.0,0.7143,0.95,71.1429,0.0,7.8,"+ parse_query and metadata filtering: rank only the chunks of the asked company, document type and fiscal year"
+V6,406.0,1.0,1.0,1.0,1.0,0.913,1.0,0.7143,0.95,71.1429,0.0,7.3,"+ query expansion: add the words the corpus uses for the asked attribute (sales -> revenue, headcount -> employees, ...)"
+V7,406.0,1.0,1.0,1.0,1.0,0.9783,1.0,0.7143,0.9833,71.8095,0.0,7.2,"+ same-year preference: when the year is asked about, the report of that year is ranked before the other one (it names the CFO in office then)"
+V8,406.0,1.0,1.0,1.0,1.0,1.0,1.0,0.7143,1.0,72.1429,0.0,7.0,"+ per-company retrieval: rank inside each company's pool and interleave the pools, so a comparison gets a chunk for each company instead of five for one"
+V9,406.0,1.0,1.0,1.0,1.0,1.0,1.0,0.7143,1.0,72.1429,0.0,7.0,+ section diversity: at most one chunk per top-level section in each company's queue
+V10,406.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,75.0,0.0,6.5,+ abstention: return [] when the question asks for an attribute the corpus never mentions (lexical document-frequency check) -- the shipped configuration
